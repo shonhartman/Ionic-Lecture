@@ -1,17 +1,17 @@
 <ion-modal-view>
   <ion-header-bar>
-    <h1 class="title">Add Todo</h1>
+    <h1 class="title">Add Todo List</h1>
   </ion-header-bar>
   <ion-content>
 
     <div class="list">
       <label class="item item-input">
-        <input type="text" placeholder="What To Do" ng-model="todosCtrl.newTodo.item">
+        <input type="text" placeholder="List Name" ng-model="listCtrl.newList.item">
       </label>
     </div>
 
     <div class="padding">
-      <button class="button button-block button-positive" ng-click="todosCtrl.addTodo()">Add Todo</button>
+      <button class="button button-block button-positive" ng-click="listCtrl.addList()">List</button>
     </div>
   </ion-content>
 </ion-modal-view>

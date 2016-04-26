@@ -5,7 +5,7 @@ class TodosListController {
     this.lists = this._TodosListService.all();
     this.newLists = this._TodosListService.new();
 
-    this.modal = $ionicModal.fromTemplate(require('/views/form.html'));
+    this.modal = $ionicModal.fromTemplate(require('../views/form.html'));
     scope: $scope
   }
 

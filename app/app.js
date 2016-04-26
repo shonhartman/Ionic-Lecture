@@ -1,5 +1,7 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
+import firebase from 'firebase';
+import angularfire from 'angularfire';
 
 
 import account from './modules/account';
@@ -10,6 +12,7 @@ import tabs from './modules/tabs';
 let App = angular.module('app', [
   'ionic',
   'ui.router',
+  'firebase',
   'tiy.todos'
 ]);
 
