@@ -10,10 +10,7 @@ import tabs from './modules/tabs';
 let App = angular.module('app', [
   'ionic',
   'ui.router',
-  'tabs',
-  'account',
-  'chats',
-  'dash'
+  'tiy.todos'
 ]);
 
 function config($urlRouterProvider) {
